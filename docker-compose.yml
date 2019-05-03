@@ -6,4 +6,4 @@ services:
         volumes: 
           - .:/test
         command:
-          - bash -c "ls"
+          - ./test.sh
