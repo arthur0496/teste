@@ -2,6 +2,8 @@
 
 images=( "lixo1_420.jpg" "lixo2_420.jpg" "flower_420.jpg" "trash_420.jpg" )
 
+lscpu > resp
+
 for i in "${images[@]}"
 do
     printf "Image %s\n" "$i" >> resp
